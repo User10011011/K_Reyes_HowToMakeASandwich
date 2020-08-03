@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="BuildASandwich" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Six: Place other piece of bread ontop." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aa9-3h-kPY">
+                                <rect key="frame" x="21" y="328" width="373" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Five: Place some lettuce ontop of the baloney" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.55000000000000004" translatesAutoresizingMaskIntoConstraints="NO" id="fTX-JE-KGM">
+                                <rect key="frame" x="20" y="285" width="374" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="How To Make A Sandwich" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Ui-8I-WNE">
+                                <rect key="frame" x="94" y="84" width="211" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Three: Spread mayo on one side of each bread." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jMu-yB-DfW">
+                                <rect key="frame" x="7" y="221" width="405" height="20"/>
+                                <rect key="contentStretch" x="0.0" y="1" width="1" height="1"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="16"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Two: Get 2 pieces of bread " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cH0-Ua-bCi">
+                                <rect key="frame" x="50" y="191" width="283.5" height="22.5"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bread, baloney, mayo, and lettuce." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Igu-9f-nsf">
+                                <rect key="frame" x="60" y="153" width="278.5" height="20"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter" family="American Typewriter" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step One: Have the following items. " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AzG-LX-h8q">
+                                <rect key="frame" x="38" y="124" width="307.5" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="Ayg-Q4-VkA">
+                                <rect key="frame" x="60" y="519" width="307.5" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </stackView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="checkmark.seal.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="buT-kH-lJz">
+                                <rect key="frame" x="196" y="438" width="23" height="29"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Seven: Enjoy your hard earned sandwich!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gLn-BA-R8o">
+                                <rect key="frame" x="7" y="368" width="400" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step Four: Place baloney on the bread." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Qs-9M-yKn">
+                                <rect key="frame" x="44" y="249" width="327" height="21"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Bold" family="American Typewriter" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="cH0-Ua-bCi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="125-lr-1Gx"/>
+                            <constraint firstItem="2Qs-9M-yKn" firstAttribute="top" secondItem="jMu-yB-DfW" secondAttribute="bottom" constant="8" id="27E-Y5-VdH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jMu-yB-DfW" secondAttribute="trailing" constant="2" id="4Tj-S0-NU1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Igu-9f-nsf" secondAttribute="trailing" constant="75.5" id="4tM-mP-Ui3"/>
+                            <constraint firstItem="aa9-3h-kPY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="21" id="67z-80-pzi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="lessThanOrEqual" secondItem="gLn-BA-R8o" secondAttribute="bottom" constant="473" id="7O7-7x-FoC"/>
+                            <constraint firstItem="jMu-yB-DfW" firstAttribute="top" secondItem="cH0-Ua-bCi" secondAttribute="bottom" constant="7.5" id="7im-k4-p8c"/>
+                            <constraint firstItem="aa9-3h-kPY" firstAttribute="top" secondItem="fTX-JE-KGM" secondAttribute="bottom" constant="22" id="91j-Kd-11x"/>
+                            <constraint firstItem="2Qs-9M-yKn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="44" id="AiU-5l-9L4"/>
+                            <constraint firstItem="gLn-BA-R8o" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="CBX-eX-pa5"/>
+                            <constraint firstItem="cH0-Ua-bCi" firstAttribute="top" secondItem="Igu-9f-nsf" secondAttribute="bottom" constant="18" id="EJh-Au-yqc"/>
+                            <constraint firstItem="gLn-BA-R8o" firstAttribute="top" secondItem="aa9-3h-kPY" secondAttribute="bottom" constant="19" id="EcH-Ep-tuk"/>
+                            <constraint firstItem="Igu-9f-nsf" firstAttribute="top" secondItem="AzG-LX-h8q" secondAttribute="bottom" constant="8" id="FVl-Gb-sYx"/>
+                            <constraint firstItem="AzG-LX-h8q" firstAttribute="top" secondItem="9Ui-8I-WNE" secondAttribute="bottom" constant="20" id="J25-Ko-l8q"/>
+                            <constraint firstItem="jMu-yB-DfW" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="7" id="LjU-Uy-Aan"/>
+                            <constraint firstItem="aa9-3h-kPY" firstAttribute="top" secondItem="fTX-JE-KGM" secondAttribute="bottom" constant="22" id="NP8-Z1-b0g"/>
+                            <constraint firstItem="cH0-Ua-bCi" firstAttribute="top" secondItem="Igu-9f-nsf" secondAttribute="bottom" constant="18" id="NSV-eY-dy9"/>
+                            <constraint firstItem="Igu-9f-nsf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="60" id="OfI-oF-0gi"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="AzG-LX-h8q" secondAttribute="trailing" constant="68.5" id="T9a-Mv-8xJ"/>
+                            <constraint firstItem="fTX-JE-KGM" firstAttribute="top" secondItem="2Qs-9M-yKn" secondAttribute="bottom" constant="15" id="Zbr-DI-uZl"/>
+                            <constraint firstItem="9Ui-8I-WNE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="aFt-H0-rPA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="gLn-BA-R8o" secondAttribute="trailing" constant="7" id="aqp-zo-fuT"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Qs-9M-yKn" secondAttribute="trailing" constant="43" id="dko-VP-o5F"/>
+                            <constraint firstItem="jMu-yB-DfW" firstAttribute="top" secondItem="cH0-Ua-bCi" secondAttribute="bottom" constant="7.5" id="dtc-L4-yRU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cH0-Ua-bCi" secondAttribute="trailing" constant="80.5" id="fic-6r-SFc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="aa9-3h-kPY" secondAttribute="trailing" constant="20" id="g6R-db-9KE"/>
+                            <constraint firstItem="cH0-Ua-bCi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="50" id="h6V-FM-jCh"/>
+                            <constraint firstItem="gLn-BA-R8o" firstAttribute="top" secondItem="aa9-3h-kPY" secondAttribute="bottom" constant="19" id="hF2-Sy-2oz"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="9Ui-8I-WNE" secondAttribute="trailing" constant="109" id="i0T-VN-63M"/>
+                            <constraint firstItem="cH0-Ua-bCi" firstAttribute="top" secondItem="Igu-9f-nsf" secondAttribute="bottom" constant="18" id="iyj-4s-Bpr"/>
+                            <constraint firstItem="fTX-JE-KGM" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="jie-ZI-Dz9"/>
+                            <constraint firstItem="AzG-LX-h8q" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="18" id="obj-Pc-lvH"/>
+                            <constraint firstItem="Igu-9f-nsf" firstAttribute="top" secondItem="AzG-LX-h8q" secondAttribute="bottom" constant="8" id="p6o-X8-81r"/>
+                            <constraint firstItem="9Ui-8I-WNE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="94" id="sEm-St-lO2"/>
+                            <constraint firstItem="AzG-LX-h8q" firstAttribute="top" secondItem="9Ui-8I-WNE" secondAttribute="bottom" constant="20" id="tgM-cw-Cz8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="fTX-JE-KGM" secondAttribute="trailing" constant="20" id="zaG-SO-nw4"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="Ayg-Q4-VkA"/>
+                                <exclude reference="buT-kH-lJz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="119.86607142857142"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="checkmark.seal.fill" catalog="system" width="64" height="60"/>
+    </resources>
+</document>
